@@ -35,8 +35,8 @@ return \EntelisTeam\Lbaf\Rector\RectorMigrationManager::apply();
 ```json
 {
   "scripts": {
-    "rector-check": "vendor/bin/rector process --dry-run",
-    "rector-fix": "vendor/bin/rector process"
+    "rector:check": "vendor/bin/rector process --dry-run",
+    "rector:fix": "vendor/bin/rector process"
   }
 }
 ```
@@ -44,8 +44,8 @@ return \EntelisTeam\Lbaf\Rector\RectorMigrationManager::apply();
 Использование:
 
 ```bash
-composer rector-check   # посмотреть, что будет изменено
-composer rector-fix     # применить миграции
+composer rector:check   # посмотреть, что будет изменено
+composer rector:fix     # применить миграции
 ```
 
 ## Собственные Rector-миграции в проекте

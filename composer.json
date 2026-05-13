@@ -36,8 +36,8 @@
   },
   "scripts": {
     "test": "vendor/bin/phpunit --display-warnings",
-    "rector-check": "vendor/bin/rector process --dry-run",
-    "rector-fix": "vendor/bin/rector process"
+    "rector:check": "vendor/bin/rector process --dry-run",
+    "rector:fix": "vendor/bin/rector process"
   },
   "minimum-stability": "stable"
 }
