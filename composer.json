@@ -39,5 +39,5 @@
     "rector-check": "vendor/bin/rector process --dry-run",
     "rector-fix": "vendor/bin/rector process"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
