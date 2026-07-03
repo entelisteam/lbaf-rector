@@ -37,7 +37,8 @@
   "scripts": {
     "test": "vendor/bin/phpunit --display-warnings",
     "rector:check": "vendor/bin/rector process --dry-run",
-    "rector:fix": "vendor/bin/rector process"
+    "rector:fix": "vendor/bin/rector process",
+    "post-update-cmd": "test ! -f vendor/bin/rector || vendor/bin/rector process"
   },
   "minimum-stability": "stable"
 }
